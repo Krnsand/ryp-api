@@ -28,6 +28,7 @@ class Post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     title = models.CharField(max_length=255)
     content = models.TextField(blank=True)
+    rating = models.DecimalField(max_digits=3, decimal_places=2, default=0)
     image = models.ImageField(
         upload_to='images/', default='../default_post_ufsuoy', blank=True
     )

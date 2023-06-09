@@ -1,4 +1,5 @@
 from django.db.models import Count
+from django.shortcuts import render, get_object_or_404
 from rest_framework import generics, permissions, filters
 from django_filters.rest_framework import DjangoFilterBackend
 from drf_api.permissions import IsOwnerOrReadOnly
@@ -36,10 +37,9 @@ class PostList(generics.ListCreateAPIView):
         'comments_count',
         'likes__created_at',
     ]
-
+    
     def perform_create(self, serializer):
-        serializer.save(owner=self.request.user)
-
+            serializer.save(owner=self.request.user)
 
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
     """
