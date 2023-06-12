@@ -44,8 +44,6 @@ A live version of this API will be found here: https://ryp-api.herokuapp.com/
 
 ![screenshot](documentation/diagram.png)
 
-- The "saved" model was added later in the project.
-
 
 ## **User Stories**
 
