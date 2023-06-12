@@ -44,13 +44,14 @@ A live version of this API will be found here: https://petfriends-api.herokuapp.
 
 ## **Database Schema**
 
-![screenshot](documentation/DatabaseSchema.png)
+![screenshot](documentation/diagram.png)
+
+- The "saved" model was added later in the project.
 
 
 ## **User Stories**
 
-- The user stories for the creation of this API can be found here: [User Stories: Backend](https://github.com/users/JodyMurray/projects/11/views/1)
-- The user stories for the Frontend can be found here: [User Stories: Frontend](https://github.com/users/JodyMurray/projects/11/views/2)
+- The user stories for this project can be found here: [User Stories](https://github.com/Krnsand/rate-your-plants/issues)
 
 ## **Testing**
 
@@ -82,7 +83,6 @@ A live version of this API will be found here: https://petfriends-api.herokuapp.
 ### **Manual Testing**
 
 
-
 #### **Testing URLs**
 
 | **URL** | **Passed** |
@@ -99,8 +99,6 @@ A live version of this API will be found here: https://petfriends-api.herokuapp.
 | /saved/:id/ | ✅ |
 | /reviews/ | ✅ |
 | /reviews/:id/ | ✅ |
-| /downvotes/ | ✅ |
-| /downvotes/:id/ | ✅ |
 
 
 ## **Technologies Used**
