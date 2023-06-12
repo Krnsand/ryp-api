@@ -25,7 +25,6 @@ A live version of this API will be found here: https://ryp-api.herokuapp.com/
     * [Unit Testing](#unit-testing)
     * [Validators](#validators)
     * [Manual Testing](#manual-testing)
-    * [Automated Testing](#automated-testing)
 * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Libraries, Frameworks, and Programs](#libraries-frameworks-and-programs)
